@@ -13,7 +13,7 @@ class Heroi {
       case "mago":
         ataque = "magia";
         break;
-      case "guerreiro":
+      case "guerreira":
         ataque = "espada";
         break;
       case "monge":
@@ -28,14 +28,14 @@ class Heroi {
 }
 
 // Exemplo de uso
-const heroi1 = new Heroi("Arthur", 30, "guerreiro");
+const heroi1 = new Heroi("Victoria", 22, "guerreira");
 heroi1.atacar(); // Saída: O guerreiro atacou usando espada
 
-const heroi2 = new Heroi("Merlin", 150, "mago");
+const heroi2 = new Heroi("Diego", 55, "mago");
 heroi2.atacar(); // Saída: O mago atacou usando magia
 
-const heroi3 = new Heroi("Bruce", 40, "monge");
+const heroi3 = new Heroi("Guilherme", 33, "monge");
 heroi3.atacar(); // Saída: O monge atacou usando artes marciais
 
-const heroi4 = new Heroi("Naruto", 17, "ninja");
+const heroi4 = new Heroi("Gustavinho", 23, "ninja");
 heroi4.atacar(); // Saída: O ninja atacou usando shuriken
